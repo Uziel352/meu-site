@@ -1,0 +1,99 @@
+body{
+    color: white;
+    background-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid green;
+}
+
+.Center{
+    text-align: center;
+}
+
+h1 {
+ color:red;
+}
+footer img{
+    width: 40px;
+    height: 40px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+footer a{
+    margin: 20px;
+    text-align: center;
+}
+footer p{
+    margin-top: 2px;
+}
+
+.container{
+    width: 50%;
+    margin: 0 auto;
+    padding:20px ;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(red, green, blue, alpha); 
+}
+
+footer :hover{
+    color: blue,;
+}
+
+input, textarea{
+    width: 100;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    padding: 10 px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button :hover {
+    background-color: blue;
+
+}
+.enviar_email.phd{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+}
+
+label for{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+}
